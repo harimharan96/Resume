@@ -3,7 +3,7 @@
 }
 *{
     padding: 0;
-    margin: 0;
+    margin: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
    
 }
@@ -13,15 +13,21 @@
     margin-inline: auto;
     border: 2px solid black;
     display: flex;
-    line-height: 150%;
+    
 }
 
 .sec-1{
     width: 45%;
     border-right: 3px solid black;
+    background-color: #f2f6f8;
+    line-height: 150%;
 }
 .sec-2{
     width: 55%;
+    line-height: 120%;
+}
+.sec-2 li{
+    margin: 3%;
 }
 
 .name, .contact-head, .edu-head, .skills-head{
