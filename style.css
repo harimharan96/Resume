@@ -1,0 +1,59 @@
+:root{
+    --head: #001aaa;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.container{
+    width: 50%;
+    margin-inline: auto;
+    border: 2px solid black;
+    display: flex;
+    line-height: 150%;
+}
+
+.sec-1{
+    width: 45%;
+    border-right: 3px solid black;
+}
+.sec-2{
+    width: 55%;
+}
+
+.name, .contact-head, .edu-head, .skills-head{
+    color: white;
+    background-color: var(--head);
+    padding: 2% 8%;
+    
+}
+.bio, .contacts, .education, .skills{
+    padding: 5% 8%;
+}
+.name{
+    margin-top: 10%;
+}
+.name h1{
+    margin: 8% 0;
+}
+.contacts ul{
+    list-style: none;
+    line-height: 250% !important; 
+}
+.skills ul{
+    line-height: 300%;
+    font-weight: bold;
+}
+.objective-head, .project-head, .skillset-head{
+    background-color: #bbdce8;
+    padding: 1% 10%;
+}
+.objectives, .projects, .skillsets{
+    padding: 1% 15%;
+}
+i{
+    margin: 2%;
+}
